@@ -1,0 +1,202 @@
+{
+  "dishes": [
+    {
+      "id": 1,
+      "name": "Chicken Burger",
+      "restaurant": 1,
+      "availableMeals": [1, 2]
+    },
+    {
+      "id": 2,
+      "name": "Ham Burger",
+      "restaurant": 1,
+      "availableMeals": [1, 2]
+    },
+    {
+      "id": 3,
+      "name": "Cheese Burger",
+      "restaurant": 1,
+      "availableMeals": [1, 2]
+    },
+    {
+      "id": 4,
+      "name": "Fries",
+      "restaurant": 1,
+      "availableMeals": [1, 2]
+    },
+    {
+      "id": 5,
+      "name": "Egg Muffin",
+      "restaurant": 1,
+      "availableMeals": [0]
+    },
+    {
+      "id": 6,
+      "name": "Burrito",
+      "restaurant": 2,
+      "availableMeals": [1, 2]
+    },
+    {
+      "id": 7,
+      "name": "Tacos",
+      "restaurant": 2,
+      "availableMeals": [1, 2]
+    },
+    {
+      "id": 8,
+      "name": "Quesadilla",
+      "restaurant": 2,
+      "availableMeals": [1, 2]
+    },
+    {
+      "id": 9,
+      "name": "Steak",
+      "restaurant": 3,
+      "availableMeals": [2]
+    },
+    {
+      "id": 10,
+      "name": "Yakitori",
+      "restaurant": 3,
+      "availableMeals": [2]
+    },
+    {
+      "id": 11,
+      "name": "Nankotsu",
+      "restaurant": 3,
+      "availableMeals": [2]
+    },
+    {
+      "id": 12,
+      "name": "Piman",
+      "restaurant": 3,
+      "availableMeals": [2]
+    },
+    {
+      "id": 13,
+      "name": "Vegan Bento",
+      "restaurant": 4,
+      "availableMeals": [1]
+    },
+    {
+      "id": 14,
+      "name": "Coleslaw Sandwich",
+      "restaurant": 4,
+      "availableMeals": [0]
+    },
+    {
+      "id": 15,
+      "name": "Grilled Sandwich",
+      "restaurant": 4,
+      "availableMeals": [0]
+    },
+    {
+      "id": 16,
+      "name": "Veg. Salad",
+      "restaurant": 4,
+      "availableMeals": [1, 2]
+    },
+    {
+      "id": 17,
+      "name": "Fruit Salad",
+      "restaurant": 4,
+      "availableMeals": [1, 2]
+    },
+    {
+      "id": 18,
+      "name": "Corn Soup",
+      "restaurant": 4,
+      "availableMeals": [1, 2]
+    },
+    {
+      "id": 19,
+      "name": "Tomato Soup",
+      "restaurant": 4,
+      "availableMeals": [1, 2]
+    },
+    {
+      "id": 20,
+      "name": "Minestrone Soup",
+      "restaurant": 4,
+      "availableMeals": [1, 2]
+    },
+    {
+      "id": 21,
+      "name": "Pepperoni Pizza",
+      "restaurant": 5,
+      "availableMeals": [1, 2]
+    },
+    {
+      "id": 22,
+      "name": "Pepperoni Pizza",
+      "restaurant": 5,
+      "availableMeals": [1, 2]
+    },
+    {
+      "id": 23,
+      "name": "Hawaiian Pizza",
+      "restaurant": 5,
+      "availableMeals": [1, 2]
+    },
+    {
+      "id": 24,
+      "name": "Seafood Pizza",
+      "restaurant": 5,
+      "availableMeals": [1, 2]
+    },
+    {
+      "id": 25,
+      "name": "Deep Dish Pizza",
+      "restaurant": 5,
+      "availableMeals": [2]
+    },
+    {
+      "id": 26,
+      "name": "Chow Mein",
+      "restaurant": 6,
+      "availableMeals": [1, 2]
+    },
+    {
+      "id": 27,
+      "name": "Mapo Tofu",
+      "restaurant": 6,
+      "availableMeals": [1, 2]
+    },
+    {
+      "id": 28,
+      "name": "Kung Pao",
+      "restaurant": 6,
+      "availableMeals": [1, 2]
+    },
+    {
+      "id": 29,
+      "name": "Wontons",
+      "restaurant": 6,
+      "availableMeals": [1, 2]
+    },
+    {
+      "id": 30,
+      "name": "Garlic Bread",
+      "restaurant": 7,
+      "availableMeals": [0, 1, 2]
+    },
+    {
+      "id": 31,
+      "name": "Ravioli",
+      "restaurant": 7,
+      "availableMeals": [1, 2]
+    },
+    {
+      "id": 32,
+      "name": "Rigatoni Spaghetti",
+      "restaurant": 7,
+      "availableMeals": [1, 2]
+    },
+    {
+      "id": 33,
+      "name": "Fettucine Pasta",
+      "restaurant": 7,
+      "availableMeals": [1, 2]
+    }
+  ]
+}

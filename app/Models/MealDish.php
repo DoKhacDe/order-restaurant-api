@@ -5,18 +5,15 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class OrderDish extends Model
+class MealDish extends Model
 {
     use HasFactory;
-    protected $table='order_dishes';
 
+    protected $table = "meal_dishes";
     protected $fillable = [
+        'id',
         'dish_id',
-        'order_id',
-        'quality',
+        'meal_id',
     ];
-
-    public function dish() {
-        return $this->hasOne(Dish::class,'id','dish_id');
-    }
+    protected $hidden = ['pivot'];
 }

@@ -16,4 +16,7 @@ class RestaurantService
     public function index() {
         return $this->restaurantRepository->all();
     }
+    public function show($id) {
+        return $this->restaurantRepository->findById($id);
+    }
 }

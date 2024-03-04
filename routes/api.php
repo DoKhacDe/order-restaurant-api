@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\Api\DishController;
+use App\Http\Controllers\Api\OrderController;
 use App\Http\Controllers\Api\RestaurantController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -21,4 +23,9 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::namespace('Api')->group(function (){
     Route::get('restaurants', [RestaurantController::class, 'index']);
+    Route::get('restaurant-detail', [RestaurantController::class, 'show']);
+    Route::get('dishes', [DishController::class, 'index']);
+    Route::post('save-order', [OrderController::class, 'save']);
+    Route::get('detail-order/{id}', [OrderController::class, 'show']);
+    Route::get('list-order', [OrderController::class, 'index']);
 });

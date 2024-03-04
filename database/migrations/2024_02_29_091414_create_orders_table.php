@@ -16,11 +16,9 @@ return new class extends Migration
             $table->string('user_name');
             $table->string('phone');
             $table->string('email');
-            $table->text('note');
             $table->tinyInteger('meal_id');
             $table->tinyInteger('people');
             $table->integer('restaurant_id');
-            $table->dateTime('date_time');
             $table->timestamps();
         });
     }

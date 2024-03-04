@@ -2,15 +2,18 @@
 
 namespace App\Service;
 
-use App\Repositories\DishRepository;
+use App\Repositories\MealRepository;
 
 class DishService
 {
     public function __construct(
-        DishRepository $dishRepository
+        MealRepository $mealRepository
     )
     {
-        $this->dishRepository = $dishRepository;
+        $this->mealRepository = $mealRepository;
     }
 
+    public function index($meal_id, $restaurant_id) {
+        return $this->mealRepository->listDishes($meal_id, $restaurant_id);
+    }
 }

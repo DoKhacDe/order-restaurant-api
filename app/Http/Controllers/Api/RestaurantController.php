@@ -29,4 +29,17 @@ class RestaurantController extends Controller
             return $this->responseJsonError(__('message.find_error'));
         }
     }
+
+    public function show(Request $request)
+    {
+        try {
+            $id = $request->id;
+            $data = $this->restaurantService->show($id);
+            return $this->responseJsonSuccess(__('message.find_success'), $data);
+        }  catch (Exception $e)
+        {
+            Log::error($e->getTraceAsString());
+            return $this->responseJsonError(__('message.find_error'));
+        }
+    }
 }
